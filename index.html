@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página personal de Roberto Guillot">
+    <title>Mi Sitio Moderno</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="modern-header">
+        <div class="container">
+            <h1 class="title">Roberto Guillot</h1>
+            <nav class="navbar">
+                <a href="#about-me">Sobre Mí</a>
+                <a href="#interests">Intereses</a>
+                <a href="#schedule">Horario</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-me" class="about-me">
+            <div class="container">
+                <img src="https://attic.sh/in1zugfr7m0u38g5kc5vv0eld3mj" alt="Foto de perfil" class="profile-pic">
+                <div class="text">
+                    <h2>Sobre Mí</h2>
+                    <p>Soy Roberto Guillot, tengo 27 años y estudio Ingeniería de Sistemas en la Universidad de La Guajira, en Riohacha.<br>
+                    Estoy orgulloso de mi descendencia wayuu y me esfuerzo por integrar mi identidad cultural con mi pasión por la tecnología.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests" class="interests">
+            <div class="container">
+                <h2>Mis Intereses</h2>
+                <div class="lists">
+                    <ul class="favorites">
+                        <li>Música</li>
+                        <li>Dormir</li>
+                        <li>Comer</li>
+                    </ul>
+                    <ol class="hobbies">
+                        <li>Estudiar</li>
+                        <li>Lavar ropa</li>
+                        <li>Hacer oficio</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="schedule">
+            <div class="container">
+                <h2>Horario Semanal</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Viajar</td>
+                            <td>Lavar</td>
+                            <td>Lavar</td>
+                            <td>Hacer oficio</td>
+                            <td>Estudiar</td>
+                        </tr>
+                        <tr>
+                            <td>Trabajar</td>
+                            <td>Lavar</td>
+                            <td>Hacer oficio</td>
+                            <td>Estudiar</td>
+                            <td>Comer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form action="" id="contact-form">
+                    <div class="form-group">
+                        <input required type="text" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <input required type="text" id="descripcion" placeholder="Motivo de Contacto">
+                    </div>
+                    <div class="form-group">
+                        <input required type="email" id="correo" placeholder="Correo Electrónico">
+                    </div>
+                    <button type="submit" id="form-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="modern-footer">
+        <div class="container">
+            <p>&copy; 2024 Roberto Guillot | <a href="https://www.facebook.com/rguillot23">Facebook</a> | <a href="https://www.instagram.com/robertoguillot1/">Instagram</a></p>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
